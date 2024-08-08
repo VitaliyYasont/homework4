@@ -144,9 +144,12 @@ select:hover,
 
 form {
     margin-bottom: 40px;
-    flex-direction: row;
-    row-gap: 10px;
-    /*  Свойства для расположения элементов (инпута и кнопки) и отступа между ними */
+    display: flex;
+    gap: 10px;
+    /*flex-direction: row;
+    row-gap: 10px;*/
+    /*  Свойства для расположения элементов (инпута и кнопки) и 
+    отступа между ними */
 }
 
 .text-field {
